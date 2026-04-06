@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,has_chicken=false": { "model": "roost:block/roost_box" },
+    "facing=south,has_chicken=false": { "model": "roost:block/roost_box", "y": 180 },
+    "facing=east,has_chicken=false":  { "model": "roost:block/roost_box", "y": 90 },
+    "facing=west,has_chicken=false":  { "model": "roost:block/roost_box", "y": 270 },
+    "facing=north,has_chicken=true":  { "model": "roost:block/roost_chicken" },
+    "facing=south,has_chicken=true":  { "model": "roost:block/roost_chicken", "y": 180 },
+    "facing=east,has_chicken=true":   { "model": "roost:block/roost_chicken", "y": 90 },
+    "facing=west,has_chicken=true":   { "model": "roost:block/roost_chicken", "y": 270 }
+  }
+}

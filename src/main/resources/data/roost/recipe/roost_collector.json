@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "PHP",
+    "PTP"
+  ],
+  "key": {
+    "P": { "tag": "minecraft:planks" },
+    "C": { "item": "roost:chicken_item" },
+    "H": { "item": "minecraft:hopper" },
+    "T": { "item": "minecraft:chest" }
+  },
+  "result": {
+    "id": "roost:roost_collector",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "block.roost.roost": "Roost",
+  "block.roost.roost_collector": "Roost Collector",
+  "block.roost.roost_breeder": "Roost Breeder",
+  "item.roost.chicken_catcher": "Chicken Catcher",
+  "item.roost.chicken_item": "Chicken",
+  "itemgroup.roost.roost": "Roost"
+}

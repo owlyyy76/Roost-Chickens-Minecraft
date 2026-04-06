@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "has_chickens=false,has_seeds=false": { "model": "roost:block/roost_breeder" },
+    "has_chickens=true,has_seeds=false":  { "model": "roost:block/roost_breeder_warning" },
+    "has_chickens=false,has_seeds=true":  { "model": "roost:block/roost_breeder" },
+    "has_chickens=true,has_seeds=true":   { "model": "roost:block/roost_breeder_curtains" }
+  }
+}

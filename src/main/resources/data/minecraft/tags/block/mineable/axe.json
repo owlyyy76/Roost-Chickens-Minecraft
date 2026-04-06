@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "roost:roost",
+    "roost:roost_collector",
+    "roost:roost_breeder"
+  ]
+}

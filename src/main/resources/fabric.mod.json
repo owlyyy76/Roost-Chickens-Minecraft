@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "roost",
+  "version": "${version}",
+  "name": "Roost",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/roost/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.roost.roost.client.RoostDataGenerator"
+    ],
+    "client": [
+      "org.roost.roost.client.RoostClient"
+    ],
+    "main": [
+      "org.roost.roost.Roost"
+    ]
+  },
+  "mixins": [
+    "roost.mixins.json",
+    {
+      "config": "roost.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

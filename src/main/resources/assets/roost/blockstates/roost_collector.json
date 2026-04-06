@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "roost:block/roost_collector" }
+  }
+}
